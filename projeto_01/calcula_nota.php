@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+  <section  style="background: #90456cff;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        width: 250px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 2px 2px 8px rgba(238, 106, 179, 0.1);
+        justify-content: center;">
+     <form action="calcula_nota.php" method="post">
+        <p><h2 style="border: 2px solid rgb(0, 0, 0); width: 250px; text-align: center;">Defina sua média</h2></p>
+        <label>Nota:</label>
+        <p><input type= "text" name="n1" required></p>
+         <input type ="submit" value="Verificar">
+        </form>
+   
+</body>
+</html>
+
+    
